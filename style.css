@@ -1,0 +1,130 @@
+header{
+    display:flex;
+    margin: 10px;
+    align-items: center;
+}
+
+
+header img{
+    width: 200px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+#contacts{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: grey;
+    opacity: 90%;
+    border-radius: 5px;
+}
+
+
+#contacts div {
+    margin: 10px 15px;
+}
+
+#name{
+    font-size: 40px;
+    align-self: end;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#work span{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.company{
+    width: 400px;
+    padding: 10px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#skills-block{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+#skills-block > span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-list{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list span{
+    margin: 2px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(103, 148, 101);
+    font-weight: 100;
+}
+
+#achievements{
+    display: flex;
+    flex-direction: column;
+}
+
+#achievements span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.achievements{
+    margin: 10px;
+}
+
+#certificates span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.certificate{
+    width: auto;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.certificate a{
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: grey;
+}
+
+.position{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.company{
+    width: auto;
+    display: flex;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+}
